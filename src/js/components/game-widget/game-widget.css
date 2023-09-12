@@ -1,0 +1,81 @@
+.game-widget {
+  width: calc(128px * 4 + 92px);
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-info {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+}
+
+.game-state {
+	width: 50%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.game-state__text {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	color: #e4e4e4;
+}
+
+.game-state__score-value, .game-state__level-value {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.game-state__fail-value {
+	font-style: italic;
+	font-size: 18px;
+	color:#e02911
+}
+
+.title {
+	width: 50%;
+	height: 50px;
+	font-size: 42px;
+	text-align: right;
+  color: #e4e4e4;
+}
+
+.box {
+	padding: 0;
+  margin-bottom: 30px;
+	width: 100%;
+	height: calc(128px * 4 + 92px);;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	list-style: none;
+	border: 2px solid teal;
+	border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.square {
+	width: 128px;
+	height: 128px;
+	margin: 4px;
+	border: 2px solid teal;
+	border-radius: 15px;
+}
+
+.yoda-img {
+  background: url('../../../img/yoda.png') center / cover no-repeat;
+}
+
+.boom-img {
+  background: url('../../../img/boom.png') center / cover no-repeat;
+}
